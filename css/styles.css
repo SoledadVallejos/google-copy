@@ -155,8 +155,8 @@ footer {
   background: #f2f2f2;
   font-size: 15px;
   color: #70757a;
-  position: fixed;
-  bottom: 0;
+  /*  position: fixed;
+  bottom: 0; */
 }
 
 .a-footer {
