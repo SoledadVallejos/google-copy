@@ -1,0 +1,196 @@
+/* GENERAL */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Hearder */
+header {
+  height: 10vh;
+  padding: 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: baseline;
+}
+
+.container-gmail-register {
+  display: flex;
+  width: 25%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.points-menu {
+  width: 24px;
+  height: 24px;
+  color: #5f6368;
+  opacity: 1;
+  padding: 10px;
+}
+
+.points-menu:hover {
+  border-radius: 20px;
+  background-color: #dcdcdc56;
+}
+
+.button-access {
+  padding: 10px 25px;
+  border-radius: none;
+  background-color: #1e91ed;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+.links {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000000de;
+  font-size: 14px;
+}
+
+/* Main */
+
+main {
+  height: 67vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.conteiner {
+  height: 60%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.container-logo {
+  display: flex;
+  justify-content: center;
+}
+
+.container-input {
+  border: 1px solid #dfe1e5;
+  border-radius: 25px;
+  height: 40px;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  align-self: center;
+}
+
+.container-input:hover {
+  box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+}
+
+.button_icon {
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  border: none;
+}
+
+.button_mic {
+  width: 24px;
+  height: 24px;
+  background-color: transparent;
+  border: none;
+  padding: 0px 4px;
+}
+
+.button_icon:hover {
+  cursor: pointer;
+}
+
+.button_mic:hover {
+  cursor: pointer;
+}
+
+.input-search {
+  background-color: transparent;
+  border: none;
+  height: 34px;
+  outline: none;
+  flex-grow: 0.8;
+}
+/* La propiedad outline es una de las "propiedades shorthand" que define CSS y que se utilizan para establecer de forma abreviada el valor de una o más propiedades individuales. En este caso, se utiliza para establecer el mismo grosor, estilo y/o anchura de todos los perfiles de un elemento. */
+
+.under-input-button {
+  border: none;
+}
+.under-input {
+  border: none;
+  padding: 9px 11px;
+  background-color: #f8f9fa;
+  color: #515151;
+  border-radius: 7px;
+}
+
+.under-input:hover {
+  box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+  color: #202124;
+}
+.container-button {
+  align-self: center;
+}
+
+/* Footer */
+footer {
+  width: 100%;
+  background: #f2f2f2;
+  font-size: 15px;
+  color: #70757a;
+}
+
+.a-footer {
+  color: #70757a;
+}
+
+.argentina {
+  border-bottom: 2px solid #dfdfdf;
+  padding: 10px;
+}
+
+.container-left-right {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 10px;
+}
+
+.container-left {
+  display: flex;
+}
+.first {
+  padding: 10px;
+}
+.second {
+  padding: 10px;
+}
+
+.right {
+  padding: 10px;
+}
+
+.link-footer {
+  padding: 10px;
+}
+.copy {
+  text-align: center;
+  padding-bottom: 4px;
+}
